@@ -32,6 +32,7 @@ int is_valid(char email[30]) {
         return 0;
     return !(Dot >= (30 - 1) || (DotCounter > 1) || (AtCounter > 1));
 }
+
 int main() {
     char email[30];
     printf("Enter email:");
